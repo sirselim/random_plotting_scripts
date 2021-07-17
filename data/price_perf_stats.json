@@ -1,0 +1,65 @@
+[
+  {
+    "GPU": "RTX4000 (mobile)",
+    "basecalling_model": "FAST",
+    "samples/s": "28864400",
+    "price ($ NZD)": "8000",
+    "samples/second/$": "3608"
+  },
+  {
+    "GPU": "RTX3060 (eGPU)",
+    "basecalling_model": "FAST",
+    "samples/s": "47023800",
+    "price ($ NZD)": "1060",
+    "samples/second/$": "44362"
+  },
+  {
+    "GPU": "RTX3080Ti (eGPU)",
+    "basecalling_model": "FAST",
+    "samples/s": "57120900",
+    "price ($ NZD)": "3000",
+    "samples/second/$": "19040"
+  },
+  {
+    "GPU": "RTX4000 (mobile)",
+    "basecalling_model": "HAC",
+    "samples/s": "4819200",
+    "price ($ NZD)": "8000",
+    "samples/second/$": "602"
+  },
+  {
+    "GPU": "RTX3060 (eGPU)",
+    "basecalling_model": "HAC",
+    "samples/s": "6403740",
+    "price ($ NZD)": "1060",
+    "samples/second/$": "6041"
+  },
+  {
+    "GPU": "RTX3080Ti (eGPU)",
+    "basecalling_model": "HAC",
+    "samples/s": "11822900",
+    "price ($ NZD)": "3000",
+    "samples/second/$": "3941"
+  },
+  {
+    "GPU": "RTX4000 (mobile)",
+    "basecalling_model": "SUP",
+    "samples/s": "1369530",
+    "price ($ NZD)": "8000",
+    "samples/second/$": "171"
+  },
+  {
+    "GPU": "RTX3060 (eGPU)",
+    "basecalling_model": "SUP",
+    "samples/s": "2281630",
+    "price ($ NZD)": "1060",
+    "samples/second/$": "2152"
+  },
+  {
+    "GPU": "RTX3080Ti (eGPU)",
+    "basecalling_model": "SUP",
+    "samples/s": "4526920",
+    "price ($ NZD)": "3000",
+    "samples/second/$": "1509"
+  }
+]
