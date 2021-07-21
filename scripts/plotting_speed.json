@@ -4,27 +4,27 @@
     "height": 250,
     "padding": 5,
     "description": "A simple bar chart with embedded data.",
-    "title": "Plotting price / performance of Nvidia GPU for Nanopore basecalling",
+    "title": "Performance of various GPUs/CPUs for Nanopore Guppy basecalling",
     "data": {
-        "url": "https://raw.githubusercontent.com/sirselim/random_plotting_scripts/main/data/price_perf_stats.json"
+        "url": "../data/speed_perf_stats.json"
     },
     "width": {"step": 55},
     "mark": "bar",
     "encoding": {
         "column": {
-            "field": "basecalling_model", "type": "ordinal", "spacing": 10
+            "field": "Model", "type": "ordinal", "spacing": 10
           },
         "x": {
-            "field": "GPU",
+            "field": "Method",
             "type": "ordinal",
             "axis": {"title": ""}
         },
         "y": {
-            "field": "samples/second/$",
+            "field": "samples per second",
             "type": "quantitative"
         },
         "color": {
-          "field": "GPU",
+          "field": "Method",
           "scale": {"range": ["#675193", "#ca8861", "#c7c7c7"]}
         }
     }

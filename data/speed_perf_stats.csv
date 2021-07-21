@@ -1,0 +1,13 @@
+Method,Model,samples per second
+RTX4000 (mobile),FAST model,28864400
+RTX4000 (mobile),HAC model,4819200
+RTX4000 (mobile),SUP model,1369530
+RTX3060 (eGPU),FAST model,47023800
+RTX3060 (eGPU),HAC model,6403740
+RTX3060 (eGPU),SUP model,2281630
+RTX3080Ti (eGPU),FAST model,57120900
+RTX3080Ti (eGPU),HAC model,11822900
+RTX3080Ti (eGPU),SUP model,4526920
+Xeon W-10885M (CPU),FAST model,643747
+Xeon W-10885M (CPU),HAC model,
+Xeon W-10885M (CPU),SUP model,

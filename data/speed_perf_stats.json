@@ -1,0 +1,62 @@
+[
+  {
+    "Method": "RTX4000 (mobile)",
+    "Model": "FAST model",
+    "samples per second": "28864400"
+  },
+  {
+    "Method": "RTX4000 (mobile)",
+    "Model": "HAC model",
+    "samples per second": "4819200"
+  },
+  {
+    "Method": "RTX4000 (mobile)",
+    "Model": "SUP model",
+    "samples per second": "1369530"
+  },
+  {
+    "Method": "RTX3060 (eGPU)",
+    "Model": "FAST model",
+    "samples per second": "47023800"
+  },
+  {
+    "Method": "RTX3060 (eGPU)",
+    "Model": "HAC model",
+    "samples per second": "6403740"
+  },
+  {
+    "Method": "RTX3060 (eGPU)",
+    "Model": "SUP model",
+    "samples per second": "2281630"
+  },
+  {
+    "Method": "RTX3080Ti (eGPU)",
+    "Model": "FAST model",
+    "samples per second": "57120900"
+  },
+  {
+    "Method": "RTX3080Ti (eGPU)",
+    "Model": "HAC model",
+    "samples per second": "11822900"
+  },
+  {
+    "Method": "RTX3080Ti (eGPU)",
+    "Model": "SUP model",
+    "samples per second": "4526920"
+  },
+  {
+    "Method": "Xeon W-10885M (CPU)",
+    "Model": "FAST model",
+    "samples per second": "643747"
+  },
+  {
+    "Method": "Xeon W-10885M (CPU)",
+    "Model": "HAC model",
+    "samples per second": ""
+  },
+  {
+    "Method": "Xeon W-10885M (CPU)",
+    "Model": "SUP model",
+    "samples per second": ""
+  }
+]
