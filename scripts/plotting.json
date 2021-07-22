@@ -8,24 +8,58 @@
     "data": {
         "url": "https://raw.githubusercontent.com/sirselim/random_plotting_scripts/main/data/price_perf_stats.json"
     },
-    "width": {"step": 55},
-    "mark": "bar",
+    "width": {
+        "step": 55
+    },
+    "mark": {
+        "type": "bar",
+        "tooltip": true
+    },
     "encoding": {
         "column": {
-            "field": "basecalling_model", "type": "ordinal", "spacing": 10
-          },
+            "field": "basecalling_model",
+            "type": "ordinal",
+            "spacing": 10
+        },
         "x": {
             "field": "GPU",
             "type": "ordinal",
-            "axis": {"title": ""}
+            "axis": {
+                "title": "",
+                "labelAngle": 45
+            }
         },
         "y": {
             "field": "samples/second/$",
             "type": "quantitative"
         },
         "color": {
-          "field": "GPU",
-          "scale": {"range": ["#675193", "#ca8861", "#c7c7c7"]}
-        }
+            "field": "GPU",
+            "scale": {
+                "range": [
+                    "#675193",
+                    "#ca8861",
+                    "#c7c7c7"
+                ]
+            }
+        },
+        "tooltip": [
+            {
+                "field": "GPU",
+                "title": "Hardware"
+            },
+            {
+                "field": "samples/second/$",
+                "title": "samples/second/$"
+            },
+            {
+                "field": "samples/s",
+                "title": "samples/second"
+            },
+            {
+                "field": "price ($ NZD)",
+                "title": "Price ($NZD)"
+            }
+        ]
     }
 }
