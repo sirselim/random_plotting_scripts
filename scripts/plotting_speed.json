@@ -1,31 +1,40 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 980,
-    "height": 250,
-    "padding": 5,
-    "description": "A simple bar chart with embedded data.",
-    "title": "Performance of various GPUs/CPUs for Nanopore Guppy basecalling",
-    "data": {
-        "url": "../data/speed_perf_stats.json"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 580,
+  "height": 250,
+  "padding": 5,
+  "description": "A simple bar chart with embedded data.",
+  "title": "Performance of various GPUs/CPUs for Nanopore Guppy basecalling",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/random_plotting_scripts/main/data/speed_perf_stats.json"
+  },
+  "width": { "step": 38 },
+  "mark": {
+    "type": "bar",
+    "tooltip": true
+  },
+  "encoding": {
+    "column": {
+      "field": "Model",
+      "type": "ordinal",
+      "spacing": 10
     },
-    "width": {"step": 55},
-    "mark": "bar",
-    "encoding": {
-        "column": {
-            "field": "Model", "type": "ordinal", "spacing": 10
-          },
-        "x": {
-            "field": "Method",
-            "type": "ordinal",
-            "axis": {"title": ""}
-        },
-        "y": {
-            "field": "samples per second",
-            "type": "quantitative"
-        },
-        "color": {
-          "field": "Method",
-          "scale": {"range": ["#675193", "#ca8861", "#c7c7c7"]}
-        }
-    }
+    "x": {
+      "field": "Method",
+      "type": "ordinal",
+      "axis": { "title": "", "labelAngle": 45 }
+    },
+    "y": {
+      "field": "samples per second",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "Method",
+      "scale": { "range": ["#675193", "#ca8861", "#c7c7c7"] }
+    },
+    "tooltip": [
+      { "field": "Method", "title": "Hardware" },
+      { "field": "samples per second", "title": "samples/s" }
+    ]
+  }
 }
